@@ -1,3 +1,31 @@
 html {
   font-family: 'Roboto Condensed', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+.Title {
+  align-self: center;
+}
+.Title h1 {
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+#dotr {
+  box-shadow: #f55 0px 0px 100px;
+}
+#dotg {
+  box-shadow: #5f5 0px 0px 100px;
+}
+#dotb {
+  box-shadow: #55f 0px 0px 100px;
+}
+.colorText {
+  padding: 0;
+  z-index: 4;
+  margin-top: 0px;
 }

@@ -5,11 +5,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <title>Really cool</title>
+    <title>Kilian 3D</title>
   </head>
   <body>
     <header>
-      <h1>My Art</h1>
+      <div class="Title" id="title_text">
+        <h1 id="title_text" style="font-size: 20px; margin: 20px 0px 0px 0px;">Kilian's</h1>
+        <h1 id="title_text" style="font-size: 40px; margin: 0px; transform: translateY(-5px)">Art Portfolio</h1>
+      </div>
     </header>
+    <main>
+      <div style="display: flex; align-items: center; flex-direction: column; transform: translateY(-40px);">
+        <span class="dot" id="dotr" style="background-color: #f55;"></span>
+        <span class="dot" id="dotg" style="background-color: #5f5;"></span>
+        <span class="dot" id="dotb" style="background-color: #55f;"></span>
+        <style media="screen">
+        .dot {
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          display: inline-block;
+          position: absolute;
+          align-self: center;
+        }
+        </style>
+      </div>
+    </main>
   </body>
+  <script src="js/ct.js"></script>
+  <script src="js/rot.js"></script>
 </html>
